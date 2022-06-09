@@ -1,0 +1,20 @@
+.userMissionTitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  padding-top: 54px;
+  margin-bottom: 48px;
+}
+
+.userMissionContainer {
+  position: relative;
+  .btnBack {
+    background: #4285f4;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    border-radius: 4px;
+  }
+}

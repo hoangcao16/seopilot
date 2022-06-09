@@ -1,0 +1,38 @@
+.button {
+  height: 48px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  font-size: 16px !important;
+}
+.buttonPrimary {
+  background: #4285f4 !important;
+  color: #ffffff !important;
+  font-weight: 500 !important;
+}
+
+.buttonWhite {
+  background: #ffffff !important;
+  color: #4285f4 !important;
+  font-weight: 500 !important;
+}
+.buttonOutline {
+  background: transparent !important;
+  border: 1px solid #6d7075 !important;
+  color: #303030 !important;
+}
+.buttonOutlineBlue {
+  border: 1px solid #4285f4 !important;
+  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.15) !important;
+  font-weight: bold !important;
+  font-size: 16px !important;
+  color: #4285f4 !important;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}

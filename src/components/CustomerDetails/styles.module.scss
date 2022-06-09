@@ -1,0 +1,96 @@
+.Detail {
+  max-width: 1460px;
+  background: #ffffff;
+  border-radius: 8px;
+  min-height: 100vh;
+  margin: 0px 16px;
+  .Banner {
+    display: flex;
+    padding-top: 20px;
+    margin-bottom: 48px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    img {
+      margin-right: 8px;
+    }
+  }
+  .Infor {
+    max-width: 765px;
+    margin: 0 auto;
+    &Item {
+      margin-bottom: 8px;
+      align-items: center;
+      label {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+      }
+      input {
+        width: 100%;
+        border-radius: 4px;
+        border: 0.5px solid #d3d3d3;
+        padding: 4px 16px;
+      }
+    }
+  }
+  .Mission {
+    margin-top: 24px;
+    p {
+      margin-bottom: 8px;
+      margin-top: 0;
+    }
+    &Item {
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 20px;
+    }
+    &Content {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+  .btnBack {
+    background: #4285f4;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    border-radius: 4px;
+  }
+}
+
+.btn {
+  display: flex;
+  justify-content: flex-end;
+  button {
+    border-radius: 4px;
+    background-color: #4285f4;
+    border-color: #4285f4;
+    &:hover {
+      background-color: #4285f4;
+      color: #ffffff !important;
+    }
+  }
+}
+
+.ClickButton {
+  margin-top: 60px;
+  text-align: center;
+  .btnConfirm {
+    display: inline-block;
+    margin-left: 16px;
+  }
+  button {
+    height: 48px;
+    padding: 0px 44px;
+    border-radius: 4px;
+  }
+}
+
+.PicLoad {
+  width: 5% !important;
+}

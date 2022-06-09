@@ -1,0 +1,24 @@
+.forgot {
+  // display: block;
+  // text-align: right;
+  float: right;
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #303030;
+  cursor: pointer;
+  // margin-bottom: 132px;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+div.buttonItem {
+  margin-top: 132px;
+  width: 100%;
+}
+.button {
+  margin-left: auto;
+}

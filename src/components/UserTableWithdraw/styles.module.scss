@@ -1,0 +1,24 @@
+.UserTableWithdraw {
+  max-width: 1000px !important;
+  margin: 0 auto;
+  p {
+    margin-bottom: 4px;
+  }
+  .inforWithdraw {
+    margin-bottom: 20px;
+  }
+  .amountTitle {
+    color: #6d7075;
+    font-size: 14px;
+    line-height: 17px;
+    padding-left: 50px;
+  }
+  .amountValue {
+    color: #303030;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 50px;
+    padding-top: 3px;
+  }
+}
